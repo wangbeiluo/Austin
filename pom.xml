@@ -17,11 +17,11 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>common</module>
-        <module>service-api-impl</module>
-        <module>service-api</module>
-        <module>support</module>
-        <module>web</module>
+        <module>austin-common</module>
+        <module>austin-service-api-impl</module>
+        <module>austin-service-api</module>
+        <module>austin-support</module>
+        <module>austin-web</module>
     </modules>
 
     <properties>

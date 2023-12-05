@@ -9,14 +9,7 @@
         <version>0.0.2</version>
     </parent>
 
-    <artifactId>support</artifactId>
+    <artifactId>austin-service-api</artifactId>
 
-    <dependencies>
-        <!--mysql驱动包-->
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-        </dependency>
-    </dependencies>
 
 </project>

@@ -9,6 +9,7 @@
         <version>0.0.2</version>
     </parent>
 
-    <artifactId>common</artifactId>
+    <artifactId>austin-service-api-impl</artifactId>
+
 
 </project>
