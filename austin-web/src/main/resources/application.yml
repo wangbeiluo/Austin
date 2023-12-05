@@ -16,3 +16,13 @@ tencent:
       sign_name:
       sms-sdk-app-id:
       template-id:
+
+# 数据库相关的信息配置 TODO
+spring:
+  datasource:
+    url:
+    username:
+    password:
+    driver-class-name:
+
+# tomcat / HikariPool(数据库连接池 配置） TODO
