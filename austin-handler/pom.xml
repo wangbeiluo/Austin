@@ -9,7 +9,19 @@
         <version>0.0.2</version>
     </parent>
 
-    <artifactId>austin-service-api-impl</artifactId>
+    <artifactId>austin-handler</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>cn.lewis.austin</groupId>
+            <artifactId>austin-common</artifactId>
+            <version>0.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.lewis.austin</groupId>
+            <artifactId>austin-support</artifactId>
+            <version>0.0.2</version>
+        </dependency>
+    </dependencies>
 
 </project>
