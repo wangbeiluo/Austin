@@ -11,5 +11,12 @@
 
     <artifactId>austin-service-api-impl</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>cn.lewis.austin</groupId>
+            <artifactId>austin-service-api</artifactId>
+            <version>0.0.2</version>
+        </dependency>
+    </dependencies>
 
 </project>
