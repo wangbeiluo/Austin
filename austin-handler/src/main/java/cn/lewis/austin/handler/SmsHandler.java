@@ -37,11 +37,11 @@ public class SmsHandler implements Handler
                 .supplierName("腾讯云通知类消息渠道").build();
         List<SmsRecord> recordList = smsScript.send(smsParam);
 
-        if (CollUtil.isNotEmpty(recordList)) {
-            smsRecordDao.saveAll(recordList);
-            return true;
+        if (CollUtil.isEmpty(recordList)) {
+            return false;
         }
 
-        return false;
+        smsRecordDao.saveAll(recordList);
+        return true;
     }
 }
