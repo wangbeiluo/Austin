@@ -2,12 +2,11 @@ package cn.lewis.austin.controller;
 
 import cn.lewis.austin.handler.SmsHandler;
 import cn.lewis.austin.pojo.TaskInfo;
-import cn.lewis.austin.pojo.vo.BasicResultVO;
+import cn.lewis.austin.vo.BasicResultVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
 

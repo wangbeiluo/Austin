@@ -1,4 +1,4 @@
-package cn.lewis.austin.pojo.vo;
+package cn.lewis.austin.vo;
 
 import cn.lewis.austin.constant.RespStatusEnum;
 import lombok.AllArgsConstructor;

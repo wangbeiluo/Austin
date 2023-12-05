@@ -6,6 +6,6 @@ package cn.lewis.austin.pipeline;
  * @date: 2023/12/5
  * @Copyright:
  */
-public class ProcessModel
+public interface ProcessModel
 {
 }

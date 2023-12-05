@@ -6,21 +6,26 @@ import lombok.ToString;
 
 /**
  * @author lewis
- * @description: 发送ID类型枚举
+ * @description: 请求类型
  * @date: 2023/12/5
  * @Copyright:
  */
 @Getter
 @ToString
 @AllArgsConstructor
-public enum IdType
+public enum RequestType
 {
-    USER_ID(10, "userid"),
-    DID(20, "did"),
-    PHONE(30, "phone"),
-    OPEN_ID(40, "openId"),
-    EMAIL(50, "email");
+    SINGLE(10, "请求接口为 single 类型"),
 
+    BATCH(20, "请求接口为 batch 类型");
+
+    /**
+     * code
+     */
     private Integer code;
+
+    /**
+     * 类型说明
+     */
     private String description;
 }

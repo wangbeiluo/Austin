@@ -1,5 +1,6 @@
 package cn.lewis.austin.service;
 
+import cn.lewis.austin.domain.BatchSendRequest;
 import cn.lewis.austin.domain.SendRequest;
 import cn.lewis.austin.domain.SendResponse;
 
@@ -11,7 +12,18 @@ import cn.lewis.austin.domain.SendResponse;
  */
 public interface SendService
 {
+    /**
+     * 单文案发送接口
+     * @param sendRequest
+     * @return
+     */
     SendResponse send(SendRequest sendRequest);
 
-    SendResponse batchSend(SendRequest sendRequest);
+
+    /**
+     * 多文案发送接口
+     * @param batchSendRequest
+     * @return
+     */
+    SendResponse batchSend(BatchSendRequest batchSendRequest);
 }
